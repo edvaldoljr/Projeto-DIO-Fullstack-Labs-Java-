@@ -16,7 +16,7 @@ public class Game {
 	private String name;
 	
 	@Column(length = 500)
-	private String desciption;
+	private String description;
 	
 	private String cover;
 	
@@ -34,11 +34,11 @@ public class Game {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDesciption() {
-		return desciption;
+	public String getDescription() {
+		return description;
 	}
-	public void setDesciption(String desciption) {
-		this.desciption = desciption;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	public String getCover() {
 		return cover;
